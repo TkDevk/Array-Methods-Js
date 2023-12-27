@@ -18,5 +18,15 @@ arry.splice(1,1) // it removes anto because is [1] and only 1 place so it means 
 let copyArry = [...arry] // ... means everything as a consecutive elements in arry
 console.log(arry)
 
-copyArry.splice(0,3) // so if i want to delete 'paula', 'rosa'
+copyArry.splice(0,3) // so if i want to cut and show only 'paula', 'rosa', then i do 
 console.log(copyArry)
+
+// I can also add values with it
+
+let nombres = ['raul','andres','andrea','melisa','gabi','natalia']
+
+let copyNombres = [...nombres];
+
+copyNombres.splice(1,1,'Pancho')// there are two args one of them is position and the second one is the name or character that i would like to replace
+console.log(copyNombres)
+// If want to delete i have to place 1 as second argument but in case that i want to only place i place 0
